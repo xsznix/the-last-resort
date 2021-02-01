@@ -1,0 +1,16 @@
+{
+  "name": "the-last-resort",
+  "version": "1.0.0",
+  "description": "Use semi-trusted friends as a last-resort backup of critical data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "sh e2e-test.sh"
+  },
+  "author": "Xuming Zeng",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "js-combinatorics": "^0.5.4",
+    "node-getopt": "^0.3.2",
+    "readline-sync": "^1.4.10"
+  }
+}
