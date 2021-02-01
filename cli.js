@@ -13,7 +13,7 @@ switch (process.argv[2]) {
     ['t', 'total=TOTAL', 'Total number of recovery files to generate'],
     ['i', 'input=INPUT', 'File to encrypt'],
     ['o', 'output=OUTPUT', 'Directory to place recovery files in'],
-    ['', 'iterations=ITERATIONS', 'Number of PBKDF2 iterations (default: 100,000)', 100000],
+    ['', 'iterations=ITERATIONS', 'Number of PBKDF2 iterations', 100000],
     ['h', 'help', 'Show help'],
   ]).bindHelp().parse(process.argv.slice(3)).options;
   password = getPassword();
