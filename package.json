@@ -7,7 +7,7 @@
     "test": "sh e2e-test.sh"
   },
   "author": "Xuming Zeng",
-  "license": "GPL-3.0-only",
+  "license": "WTFPL",
   "dependencies": {
     "js-combinatorics": "^0.5.4",
     "node-getopt": "^0.3.2",
